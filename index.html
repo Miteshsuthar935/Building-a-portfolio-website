@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>  
+  </head>
+  <body>
+    <script type="module" src="src/main.js"></script>
+  <section class="header-section">
+    <header class="header">
+      <a class="header-logo">Mitesh Suthar</a>
+      
+        <ul class="header__menu">
+          <li>
+            <a class="header__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="header__link" href="#projects">Projects</a>
+          </li>
+          <li>
+            <a class="header__link" href="#contact">Contact</a>
+          </li>
+        </ul>
+          <button aria-label="mobile nav button" class="header__bars">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a class="mobile-nav__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#projects">Projects</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#contact">Contact</a>
+          </li>
+      </nav>
+    </div>
+    <!-- End of Mobile Navigation -->
+  </section>
+    <section class="hero">
+      <div class="hero__info">
+        <h1 class="hero-title"> Hi, I'm Mitesh 👋</h1>
+        <h1 class="hero-subtitle">FRONT-END<br>WEB DEVELOPER</h1>
+        <h2 class="hero-desc">exploring tech,learning,experimenting,growing.</h2>
+      </div>
+      <div class="hero__img">
+        <img class="hero-img" src="images/hero-img .png" alt="hero-img">
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <h1 class="about-heading">About me</h1>
+      <div class=" aboutme container">
+      <div class="about-info">
+        <h1 class="info-myname">I am Mitesh Suthar</h1>
+        <p  id="desc1" class="about-desc">I am currently in my second year of pursuing a Bachelor of Computer Applications (BCA) degree at MS University, Baroda.
+          My academic journey has been focused on computer science,and I am passionate about programming and software development.
+          'm eager to expand my skills and contribute to the world of technology as I continue my BCA program.</p>
+        <p id="desc2" class="about-desc">
+          I find relief and motivation in <a>music</a> it's my therapy. Every beat has a purpose. 
+          With <a>videography</a>, I capture moments, making them unforgettable memories. Music and moments, 
+          that's what fuels my passion.  
+        </p>
+      </div>
+      <div class="about-tech">
+        <h1 class="tech-heading" >Technologies</h1>
+        <img src="images/technologies.png" alt="tech img">
+      </div>
+    </div>
+    </section>
+    <section id="projects" class="projects section">
+      <div class="info container">
+      <h1 class="projects-heading">Projects</h1>  
+        <div class="project-img">
+          <img class="img1" src="images/projectimg1.png" alt="portfolio img">
+          <h1 class="name-1">My Portfolio</h1>
+          <p class="content">
+            Welcome to my personal portfolio, a testament to my skills and creativity. 
+            Designed entirely by me using HTML, CSS, and JavaScript, this platform showcases my passion for web development and design. 
+            Explore to discover the unique blend of functionality and aesthetics that define my work.
+          </p>
+        </div>
+      </div>
+    <a class="Check-Out btn" href="#">Check Out</a>
+    </section>
+    <section id="contact"  class="Contact section" >
+      <div class="contact-me container">
+        <h1 class="contact-heading">Contact me</h1>
+        <p class="contact-desc">Feel free to reach out with any questions or inquiries. While my portfolio is currently under construction, I'm eager to connect and discuss potential collaborations or address any queries you may have. Your interest is truly appreciated, and I look forward to hearing from you!</p>
+        <a  class="reach btn" href="mailto:miteshsuthar935@gmail.com" target="_blank">Reach Out</a>
+      </div>
+    </section>
+    <section class="footer section">
+      <div class="foot container">
+        <p>~Mitesh~</p>
+      </div>
+
+    </section>
+  </body>
+</html>
